@@ -39,12 +39,3 @@ flet build macos . --arch arm64
 ```
 
 The `.app` bundle is created in `build/macos/`.
-
-## GitHub
-
-Create and push a public repo:
-
-```bash
-gh auth login -h github.com
-gh repo create frame-extractor --public --source=. --remote=origin --push
-```
